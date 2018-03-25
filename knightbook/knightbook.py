@@ -4,7 +4,7 @@ import json
 from bs4 import BeautifulSoup
 import requests
 
-chromedriver = '/Users/Nicholas/GitHub/beninato8-P1-PythonML/not classwork/chromedriver'
+chromedriver = './chromedriver'
 browser = webdriver.Chrome(chromedriver)
 browser.get('https://login.menloschool.org:8443/cas/login?service=https%3A%2F%2Fknightbook.menloschool.org%2F')
 
